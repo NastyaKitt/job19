@@ -203,6 +203,7 @@
 @media (max-width:425px) {
     .heroSection {
         padding: 1rem 1rem;
+        background-position-x: center;
     }
     .tyda {
         width: 100%;
@@ -251,9 +252,44 @@
             }
         }
     }
+    @keyframes switchPosition {
+        0% {
+            right: 5%;
+        }
+        100% {
+            right: 60%;
+        }
+    }
 
+    .tyda {
+        & p {
+            font-size: 1rem;
+        }
+    }
     
+    .form {
+        & h1 {
+            padding: 2rem 1rem;
+        }
+    }
+    .politic {
+        .politica {
+            width: 90%;
+            height: 80%;
+            padding: 1rem;
+        }
+    }
     
+    .review {
+        & .slider {
+            flex-wrap: wrap;
+            & .items.show {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
     
 
 }
