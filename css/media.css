@@ -1,0 +1,324 @@
+@media (max-width:1600px) {
+    .heroSection {
+        padding: 6rem 6rem;
+    }
+    .tyda {
+        width: calc(100% - 12rem);
+    }
+    .price {
+        padding: 5rem 6rem;
+    }
+    .form {
+        padding: 2rem 6rem;
+    }
+    .howRepair {
+        padding: 4rem 6rem;
+    }
+    .review {
+        padding: 1rem 6rem;
+    }
+    footer {
+        padding: 2rem 6rem;
+    }
+}
+@media (max-width:1024px) {
+    .heroSection {
+        padding: 4rem 2rem;
+        height: 35rem;
+    }
+    .tyda {
+        width: calc(100% - 8rem);
+    }
+    @keyframes switchPosition {
+        0% {
+            right: 5%;
+        }
+        100% {
+            right: 70%;
+        }
+    }
+    .howRepair {
+        & .howList {
+            & .strela {
+                width: 50%;
+            }
+        }
+    }
+    .review {
+        & .slider {
+            & .items {
+                &.show {
+                    height: 13rem;
+                    width: 48%;
+                }
+            }
+        }
+    }
+}
+@media (max-width:960px) {
+    .heroSection {
+        .poloca {
+            width: 70%;
+            height: 8rem;
+        }
+    }
+    @keyframes switchPosition {
+        0% {
+            right: 5%;
+        }
+        100% {
+            right: 65%;
+        }
+    }
+    .price {
+        padding: 2rem 4rem;
+    }
+    .form {
+        padding: 2rem 4rem;
+    }
+}
+@media (max-width:760px) {
+    .tyda {
+        width: calc(100% - 8rem);
+    }
+
+}
+@media (max-width:660px) {
+    body {
+        font-size: 12px;
+    }
+    .heroSection {
+        padding: 4rem 2rem;
+        height: 20rem;
+    }
+    .heroSection {
+        & h1 {
+            font-size: 2rem;
+            color: #fff;
+        }
+    }
+    .heroSection {
+        .poloca {
+            display: none;
+        }
+    }
+    .tyda {
+        height: 4rem;
+        bottom: 2rem;
+        & p {
+            font-size: 1.2rem;
+        }
+    }
+    .howRepair {
+        padding: 4rem 2rem;
+    }
+    .howRepair {
+        & .howList {
+            & .strela {
+                padding: 2rem 2rem;
+            }
+        }
+    }
+    .review {
+        padding: 1rem 2rem;
+    }
+    footer {
+        padding: 2rem 2rem;
+    }
+    footer {
+        & p {
+            font-size: 1rem;
+        }
+    }
+    footer {
+        & button {
+            font-size: 1rem;
+        }
+    }
+    .form {
+        & form {
+            height: 25rem;
+        }
+    }
+    
+    
+        
+}
+@media (max-width: 500px) {
+    body {
+        font-size: 10px;
+    }
+    .price {
+        padding: 2rem 2rem;
+    }
+    .tyda {
+        width: calc(100% - 4rem);
+    }
+    .form {
+        padding: 2rem 2rem;
+    }
+    .form {
+        height: 40rem;
+    }
+    .howRepair {
+        & h1 {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+        }
+    }
+    .review {
+        & h1 {
+            font-size: 2rem;
+        }
+    }
+    
+    .review {
+        & .slider {
+            & .items {
+                &.show {
+                    height: 10rem;
+                    width: 48%;
+                }
+            }
+        }
+    }
+    .review {
+        & button {
+            width: 75%;
+            height: 3rem;
+            font-size: 1rem;
+        }
+    }
+    
+    footer {
+        & h1 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+    
+    
+    
+}
+@media (max-width:425px) {
+    .heroSection {
+        padding: 1rem 1rem;
+    }
+    .tyda {
+        width: 100%;
+    }
+    .price {
+        padding: 0rem 1rem;
+    }
+    .price {
+        & .priceList {
+            & .item {
+                & p {
+                    padding: 1rem 1rem;
+                }
+            }
+        }
+    }
+    .form {
+        & form {
+            & input {
+                height: 3rem;
+                font-size: 1rem;
+            }
+        }
+    }
+    .form {
+        & form {
+            height: 15rem;
+        }
+    }
+    .form {
+        height: 30rem;
+        & form {
+            & input {
+                &.ok {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .howRepair {
+        padding: 1rem 2rem;
+        & .howList {
+            & .strela {
+                width: 100%;
+                padding: 1rem 3rem;
+            }
+        }
+    }
+
+    
+    
+    
+
+}
+@media (max-width:320px) {
+    .form {
+        & h1 {
+            padding: 1rem 0rem;
+        }
+    }
+    .form {
+        padding: 1rem 1rem;
+    }
+    .form {
+        height: 25rem;
+    }
+    .review {
+        & .slider {
+            flex-wrap: wrap;
+            & .items.show {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    .politic {
+        .politica {
+            width: 90%;
+            height: 80%;
+            padding: 1rem;
+        }
+    }
+    
+    
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
